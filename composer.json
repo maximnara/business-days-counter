@@ -1,0 +1,27 @@
+{
+  "name": "maximnara/business-days-counter",
+  "description": "Counts business days difference.",
+  "keywords": ["maximnara", "laravel", "holidays", "difference"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksim Luzhkov",
+      "email": "maximnara@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "maximnara\\BusinessDaysCounter\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "maximnara\\BusinessDaysCounter\\BusinessDaysCounterServiceProvider"
+      ]
+    }
+  }
+}
