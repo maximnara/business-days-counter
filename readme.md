@@ -3,16 +3,9 @@ Returns difference between dates without public holidays and weekends. Works for
 
 ## Installation
 
-1. Add library in Composer
+Add library in Composer
 ```
 composer require maximnara/business-days-counter
-```
-3. If you’re on Laravel 5.5 or later the package will be auto-discovered. Otherwise you will need to manually configure it in your `config/app.php`.
-```
-"providers" => array(
-    // ...
-    maximnara\BusinessDaysCounter\BusinessDaysCounterServiceProvider::class,
-)
 ```
 
 
