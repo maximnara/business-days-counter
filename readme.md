@@ -2,8 +2,8 @@
 
 <p align="center">
 <a href="https://travis-ci.org/maximnara/business-days-counter"><img src="https://api.travis-ci.org/maximnara/business-days-counter.svg" alt="Build Status"></a>
-[![Latest Stable Version](https://poser.pugx.org/maximnara/business-days-counter/v/stable)](https://packagist.org/packages/maximnara/business-days-counter)
-[![Total Downloads](https://poser.pugx.org/maximnara/business-days-counter/downloads)](https://packagist.org/packages/maximnara/business-days-counter)
+<a href="https://packagist.org/packages/maximnara/business-days-counter"><img src="https://poser.pugx.org/maximnara/business-days-counter/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/maximnara/business-days-counter"><img src="https://poser.pugx.org/maximnara/business-days-counter/downloads" alt="Total Downloads"></a>
 </p>
 
 Returns difference between dates without public holidays and weekends. Works for different countries.
