@@ -16,7 +16,11 @@ class BusinessDaysCounterServiceProvider extends ServiceProvider
 		$this->app->singleton(
 			DatesCounter::class,
 			function ($app) {
-				return new DatesCounter();
+				$country = config('services.business-days-counter.country');
+				$workingHoursFrom = config('services.business-days-counter.working-hours.from');
+				$workingHoursTo = config('services.business-days-counter.working-hours.to');
+				$launchHour = config('services.business-days-counter.working-hours.launch-hour');
+				return new DatesCounter($country, $workingHoursFrom, $workingHoursTo, $launchHour);
 			}
 		);
 	}
